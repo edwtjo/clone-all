@@ -1,5 +1,5 @@
 name:                clone-all
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            Clone all github repositories from a given user
 description:         Clone all github repositories from a given user
 homepage:            https://github.com/silky/clone-all
@@ -14,12 +14,12 @@ cabal-version:       >=1.8
 executable clone-all
   main-is: clone-all.hs
   build-depends:
-    base                   >= 4.0    && < 5.0,
-    text                   >= 0.10   && < 0.12,
-    system-filepath        >= 0.4    && < 0.5,
-    optparse-applicative   >= 0.5    && < 0.6,
-    system-fileio          >= 0.3    && < 0.4,
-    process                >= 1.1    && < 1.2,
+    base                   >= 4.0,
+    text                   >= 0.10,
+    system-filepath        >= 0.4,
+    optparse-applicative   >= 0.6,
+    system-fileio          >= 0.3,
+    process                >= 1.1,
     bytestring             >= 0.10,
     aeson                  >= 0.6.2.1,
     github                 >= 0.8,
