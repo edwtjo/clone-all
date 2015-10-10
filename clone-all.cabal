@@ -15,6 +15,7 @@ executable clone-all
   main-is: clone-all.hs
   build-depends:
     base                   >= 4.0,
+    either                 >= 4.4,
     text                   >= 0.10,
     system-filepath        >= 0.4,
     optparse-applicative   >= 0.6,
